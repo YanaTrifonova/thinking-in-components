@@ -1,6 +1,7 @@
 // App.js
 import React from "react";
 import Header from "./components/header"
+import Footer from "./components/footer"
 import "./App.css";
 
 export default function App() {
@@ -181,24 +182,7 @@ export default function App() {
           <div className="line "/>
         </div>
 
-        <div className="section-footer">
-          <img
-              alt=""
-              className="logo"
-              src="https://learntocodetogether.nl/assets/logo.svg"
-          />
-          <div className="title">Created by</div>
-          <div className="subtitle">
-            Rein Op &#x27;t land &amp; Danny van der Jagt
-          </div>
-          <div className="team-container">
-            <img
-                alt=""
-                className="team"
-                src="https://learntocodetogether.nl/assets/danny&rein.svg"
-            />
-          </div>
-        </div>
+        <Footer />
       </div>
   );
 }
